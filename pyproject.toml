@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "regaa-proptech-bot"
+version = "0.1.0"
+description = "Regaa PropTech Bot with FastAPI and Gemini AI"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.0"
+python-dotenv = "^1.0.1"
+google-generativeai = "^0.5.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

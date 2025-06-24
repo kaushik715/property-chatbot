@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Regaa PropTech Bot</title>
+  <link rel="stylesheet" href="/static/index.css" />
+</head>
+<body>
+  <div id="app-container">
+    <header id="app-header">
+      <div class="logo-container">
+        <span class="logo-icon" aria-hidden="true">🏠</span>
+        <h1>Regaa PropTech Bot</h1>
+      </div>
+      <p class="subtitle">Your Indian Real Estate Advisor</p>
+    </header>
+    <main id="chat-container">
+      <div id="chat-area" role="log" aria-live="polite" aria-atomic="false"></div>
+    </main>
+    <footer id="input-zone">
+      <div id="input-area-wrapper">
+        <textarea id="user-input" placeholder="Ask something..." rows="1"></textarea>
+        <button id="send-button">Send</button>
+      </div>
+      <p class="disclaimer">
+        Disclaimer: This is not legal or investment advice.
+      </p>
+    </footer>
+  </div>
+  <script src="/static/index.js"></script>
+</body>
+</html>

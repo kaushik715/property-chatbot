@@ -1,0 +1,16 @@
+# FastAPI and ASGI server
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+
+# For CORS support (if needed)
+python-multipart==0.0.9
+aiofiles==23.2.1
+
+# For environment variable loading
+python-dotenv==1.0.1
+
+# For Google GenAI (via SDK)
+google-generativeai==0.5.4
+
+# Optional - type checking and dev tools
+httpx==0.27.0  # Used internally by FastAPI / for async HTTP calls
